@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-offset="0" data-target="#gn-menu">
+	<!-- ========== MAIN MENU ========== -->
+  <div class="container">
+    <ul id="gn-menu" class="gn-menu-main">
+      <li class="gn-trigger">
+        <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+        <nav class="gn-menu-wrapper">
+          <div class="gn-scroller">
+            <ul class="gn-menu">
+              <li class="gn-search-item">
+                <input placeholder="Search" type="search" class="gn-search">
+                <a class="gn-icon gn-icon-search"><span>Search</span></a>
+              </li>
+              <li><a href="#home" class="gn-icon gn-icon-home smoothscroll">Home</a></li>
+              <li><a href="#about" class="gn-icon gn-icon-archive smoothscroll">About</a></li>
+              <li><a href="#album" class="gn-icon gn-icon-pictures smoothscroll">相册</a></li>
+              <li><a href="#susume" class="gn-icon gn-icon-article smoothscroll">文章</a></li>
+              <li><a href="#contact" class="gn-icon gn-icon-envelop smoothscroll">Contact</a></li>
+            </ul>
+          </div>
+          <!-- /gn-scroller -->
+        </nav>
+      </li>
+      <li><a href="#home" class="smoothscroll">top</a></li>
+    </ul>
+  </div>
+  <!-- /container -->
+	
+<div id="page" style="width: 100%;margin-left: 200px">
+<div id="left" style="width:75%;float: left">
+  	<div id="home" style="height: 700px;background-color: white">
+    	<div class="col-lg-6 col-lg-offset-3">
+      		<h1 class="centered">head</h1>
+    	</div>
+    <!-- /col-lg-6 -->
+  	</div>
+  <!-- /container -->
+  <form action="./form/save.php" method="post" enctype="application/x-www-form-urlencoded">
+		<label>姓名：<input type="text" name="name"></label>
+		<br>
+		<label>密码：<input type="password" name="password"></label><br>
+		<input type="submit" name="submit" value="提交">
+		<input type="reset" name="reset" value="重写">
+	</form>
+  <div id="susume" style="height: 700px;background-color: #777">
+    <div class="col-lg-6 col-lg-offset-3">
+    	<h1 class="centered"><a href="./article01.html">推荐</a></h1>
+    </div>
+    <!-- /col-lg-6 -->
+  </div>
+  <!-- /container -->
+  	<div id="about" style="height: 700px;background-color: #777">
+    <div class="col-lg-6 col-lg-offset-3">
+    	<h1 class="centered">about</h1>
+    </div>
+    <!-- /col-lg-6 -->
+  </div>
+  <!-- /container -->
+</div>
+<div style="width:25%;float: right; color: #000" >
+	<aside>
+		<h1>相关链接</h1>
+		<ul>
+			<li><span style="color: red">1</span></li>
+			<li><span style="color: red">2</span></li>
+			<li><span style="color: red">3</span></li>
+		</ul>
+	</aside>
+</div>
+</div>
+
+
+
+
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="form/validate.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/chart/chart.js"></script>
+<script src="lib/classie/classie.js"></script>
+<script src="lib/gnmenu/gnmenu.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
